@@ -1,0 +1,24 @@
+{
+    "name": "sidharthmenon/flarum-screenshot",
+    "description": "To convert the article to text to share in social media. uses dom-to-image library",
+    "type": "flarum-extension",
+    "authors": [
+      {
+        "name": "Sidharth Menon",
+        "email": "sidharth.menon91@gmail.com"
+      }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.3"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Article Screenshot",
+            "icon": {
+                "name": "fa fa-camera",
+                "backgroundColor": "#ddd",
+                "color": "#666"
+            }
+        }
+    }
+}
